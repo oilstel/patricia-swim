@@ -114,7 +114,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Toggle visibility of options and navigation on top-bar click
     document.getElementById('top-bar').addEventListener('click', () => {
-        console.log('hiii');
         document.getElementById('model-options').classList.toggle('hidden');
         document.getElementById('background-options').classList.toggle('hidden');
         document.querySelectorAll('.tb-nav-button').forEach(button => button.classList.toggle('hidden'));
@@ -124,6 +123,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('right-link').addEventListener('click', (event) => {
         const top = model.querySelector('#top').alt;
         const bottom = model.querySelector('#bottom').alt;
-        event.target.href = `products.html?top=${top}&bottom=${bottom}`;
+        event.target.href = "https://patriciaswim.myshopify.com";
     });
 });

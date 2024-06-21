@@ -29,11 +29,35 @@ main #top-bar {
     border-bottom: 1px solid #000;
     cursor: pointer;
 }
-main #top-bar .dot {
+main #top-bar .xdot {
     width: 40px;
     height: 40px;
+    border-radius: 50%;
+    background-color: #FF605C;
     border: 1px solid #000;
-    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #top-bar .xdot::after {
+    content: '\2573';
+    font-size: 16px;
+    color: #000;
+}
+main #top-bar .dashdot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFBD44;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #top-bar .dashdot::after {
+    content: '\23AF';
+    font-size: 18px;
+    color: #000;
 }
 
 /* Bottom Navigation */
