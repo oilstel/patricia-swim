@@ -61,8 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Arrays to hold the options for tops and bottoms
-    const topOptions = ['blue', 'maroon', 'orange'];
-    const bottomOptions = ['blue', 'maroon', 'orange'];
+    const topOptions = ['silver', 'stripe', 'stripe_bandeau'];
+    const bottomOptions = ['cocoa', 'grey', 'hibiscus_short', 'paisley_short', 'paisley_tie'];
 
     // Variables to store the current index of tops and bottoms
     let topIndex = 0;
